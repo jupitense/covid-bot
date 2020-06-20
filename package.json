@@ -1,0 +1,29 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "micro"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fbgraph": "^1.4.4",
+    "firebase-admin": "^8.10.0",
+    "firebase-functions": "^3.6.1",
+    "got": "^11.3.0",
+    "micro": "^9.3.4",
+    "node-cron": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-promise": "^4.0.1",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
