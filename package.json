@@ -7,7 +7,7 @@
     "start": "micro"
   },
   "engines": {
-    "node": "8"
+    "node": "12.x"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
