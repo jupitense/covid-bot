@@ -7,7 +7,7 @@ const cron = require('node-cron');
 fb.setAccessToken(process.env.APP_TOKEN);
 fb.setAppSecret(process.env.APP_SECRET_TOKEN);
 
-cron.schedule('* */1 * * *', async () => {
+cron.schedule('0 6,18 * * *', async () => {
   try {
     const summary = await got('https://covid19.patria.org.ve/api/v1/summary').json();
     let today = await got('https://covid19.patria.org.ve/api/v1/timeline').json();
